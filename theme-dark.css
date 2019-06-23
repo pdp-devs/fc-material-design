@@ -20,7 +20,7 @@
     --rs02: #e57650; /* autor */
     --rs03: #e5987e; /* autor */
     --cv01: #81c784; /* usuarios en linea */
-    --c200: #232323; /* cabecera */ /*url(https://i.imgur.com/64KznUR.jpg) no-repeat;*/
+    --c200: #232323; /* cabecera */ /*url(https://i.imgur.com/64KznUR.jpg) no-repeat; FIXME */
     --c400: #ff5252; /* notificacion */
     --c40t: #fff; /* notificacion */
     --c401: #e57650; /* resalto */
@@ -64,7 +64,7 @@ img[src*="/multiquote_off.gif"],
 img[src*="/quickreply.gif"],
 img[src*="/edit.gif"],
 img[src*="/quote.gif"] {
-    background: url(http://i.imgur.com/P26bjeG.png);
+    background: url(http://i.imgur.com/P26bjeG.png);    /* FIXME */
     background-size: 114px 232px;
 }
 
@@ -72,13 +72,13 @@ img[src*="/quote.gif"] {
 img[src*="/newprivate.png"],
 img[src*="/reply_small.gif"],
 img[src*="/forward.gif"] {
-    background: url(http://i.imgur.com/74ujPY8.png);
+    background: url(http://i.imgur.com/74ujPY8.png);    /* FIXME */
     background-size: 132px 86px;
 }
 
 /* flecha input */
 select {
-    background: var(--co01) url(http://i.imgur.com/ziDwIoU.png) right no-repeat;
+    background: var(--co01) url(https://i.imgur.com/8DtcbtX.png) right no-repeat;
 }
 
 /* compatibilidad */

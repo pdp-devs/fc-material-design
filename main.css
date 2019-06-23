@@ -285,7 +285,7 @@
     /* fix chrome */
     @media (min-resolution: 102dpi) {
         body > div > center > table#AutoNumber1 td:last-child {
-            background: url(https://i.imgur.com/zLE1h9T.png) 0 0/166px 18px;
+            background: url(https://i.imgur.com/zLE1h9T.png) 0 0/166px 18px;    /* FIXME */
         }
     }
     /* aviso cookies */
@@ -692,7 +692,7 @@
         width: 0;
         height: 24px;
         padding-right: 24px;
-        background: url(https://i.imgur.com/vDVSqPh.png) center/24px no-repeat;
+        background: url(https://i.imgur.com/3elkjtg.png) center/24px no-repeat;
     }
     /* hilos con notificaciones */
     [id^=td_threadtitle][style="background-color: #ffd1d1;"], [id^=td_threadtitle][style="background-color: #fffde4;"] {
@@ -2282,7 +2282,7 @@
         width: 0;
         height: 18px;
         padding-right: 18px;
-        background: url(https://i.imgur.com/4SI1G8E.png) center no-repeat;
+        background: url(https://i.imgur.com/WCHUxgp.png) center no-repeat;
         background-size: cover;
         margin-left: 7px;
         margin-top: 6px;
@@ -3481,7 +3481,7 @@
         background: url(https://i.imgur.com/Z1aqqmV.png);
     }
     img[src*="/editor/switchmode.gif"] {
-        background: url(https://i.imgur.com/ZBt4HYG.png);
+        background: url(https://i.imgur.com/ZBt4HYG.png);   /* FIXME */
     }
     img[src*="/editor/removeformat.gif"] {
         background: url(https://i.imgur.com/VieWtVc.png);
@@ -3560,7 +3560,7 @@
         width: 0;
         height: 16px;
         padding-right: 16px;
-        background: url(https://i.imgur.com/WJLwtOx.png) 0 0/16px;
+        background: url(https://i.imgur.com/WJLwtOx.png) 0 0/16px;  /* FIXME */
         position: relative;
         top: 3px;
         opacity: .6;
@@ -3573,7 +3573,7 @@
         width: 0;
         height: 12px;
         padding-right: 12px;
-        background: url(https://i.imgur.com/wR8douU.png) 0 0/12px;
+        background: url(https://i.imgur.com/wR8douU.png) 0 0/12px;   /* FIXME */
     }
     /* minimizar */
     img[src*="/collapse_tcat.gif"], img[src*="/collapse_thead.gif"], img[src*="/collapse_alt.gif"] {
