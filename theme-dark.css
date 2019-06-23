@@ -78,7 +78,7 @@ img[src*="/forward.gif"] {
 
 /* flecha input */
 select {
-    background: var(--co01) url(https://i.imgur.com/8DtcbtX.png) right no-repeat;
+    background: var(--co01) url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNOC41OSAxNi41OUwxMy4xNyAxMiA4LjU5IDcuNDEgMTAgNmw2IDYtNiA2LTEuNDEtMS40MXoiLz48cGF0aCBmaWxsPSJub25lIiBkPSJNMCAwaDI0djI0SDBWMHoiLz48L3N2Zz4=") right no-repeat;
 }
 
 /* compatibilidad */
