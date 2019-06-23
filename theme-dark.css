@@ -1,0 +1,187 @@
+/* parametros tema oscuro */
+:root {
+    /* colores */
+    --bg01: #121212; /* fondo principal */
+    --tx01: #d1d1d1; /* texto 1 */
+    --bg02: #252525; /* bordes 1 */
+    --bg05: transparent; /* bordes 2 */
+    --bg04: #232323; /* fondo oscuro */
+    --bg03: #1C1C1C; /* fondo claro */
+    --tx03: #6e6e6e; /* texto 2 */
+    --bg07: #232323; /* editor */
+    --bg08: #232323; /* barra 1 */
+    --tx06: #bfbfbf; /* texto b */
+    --tx07: #e57650; /* enlaces principales */
+    --tx08: #e5987e; /* enlaces principales */
+    --tx04: #e57650; /* enlaces secundarios */
+    --tx05: #e5987e; /* enlaces secundarios */
+    --rs01: #64b5f6; /* usuario */
+    --rs04: #212e3b; /* usuario */
+    --rs02: #e57650; /* autor */
+    --rs03: #e5987e; /* autor */
+    --cv01: #81c784; /* usuarios en linea */
+    --c200: #232323; /* cabecera */ /*url(https://i.imgur.com/64KznUR.jpg) no-repeat;*/
+    --c400: #ff5252; /* notificacion */
+    --c40t: #fff; /* notificacion */
+    --c401: #e57650; /* resalto */
+    --co03: #fff; /* no modificar */
+    --co04: #fff; /* enlaces cabecera blanco/negro */
+    --co01: #1C1C1C; /* fondo claro/oscuro */
+    --co02: #fff; /* blanco/negro */
+    --rgb7: rgba(255, 255, 255, .7);
+    --rgb7b: rgba(255, 255, 255, .7); /* enlaces cabecera */
+    --rgb5: rgba(255, 255, 255, .5);
+    --rgb2: rgba(255, 255, 255, .2);
+    --rgb2i: rgba(0, 0, 0, .2); /* no modificar */
+    --rgb1: rgba(255, 255, 255, .12);
+
+    /* sombras */
+    --dsh2: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.15));
+    --dsh4: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.15));
+    --dsh6: drop-shadow(0 6px 6px rgba(0, 0, 0, 0.15));
+    --bsh1: 0 1px 2px rgba(0, 0, 0, 0.15);
+    --bsh2: 0 2px 2px rgba(0, 0, 0, 0.15);
+    --bsh4: 0 4px 4px rgba(0, 0, 0, 0.15);
+    --bsh8: 0 8px 8px rgba(0, 0, 0, 0.15);
+
+    /* otros */
+    --sz01: 14px; /* tamaño titulos */
+
+    /* resaltado botones */
+    --bns1: brightness(126%);
+    --bns2: brightness(110%);
+
+    /* compatibilidad */
+    --invert: invert(100%);
+}
+
+/* botones foro */
+img[src*="/reply.gif"],
+img[src*="/threadclosed.gif"],
+img[src*="/newthread.gif"],
+img[src*="/multiquote_on.gif"],
+img[src*="/multiquote_off.gif"],
+img[src*="/quickreply.gif"],
+img[src*="/edit.gif"],
+img[src*="/quote.gif"] {
+    background: url(http://i.imgur.com/P26bjeG.png);
+    background-size: 114px 232px;
+}
+
+/* botones privados */
+img[src*="/newprivate.png"],
+img[src*="/reply_small.gif"],
+img[src*="/forward.gif"] {
+    background: url(http://i.imgur.com/74ujPY8.png);
+    background-size: 132px 86px;
+}
+
+/* flecha input */
+select {
+    background: var(--co01) url(http://i.imgur.com/ziDwIoU.png) right no-repeat;
+}
+
+/* compatibilidad */
+img[src*="/editor/"], /*img[src*="/statusicon/"],*/
+img[src*="/misc/"], img[src*="/buttons/"], img[src*="images/mention.png"] {
+    filter: invert(100%);
+}
+
+img[src*="/statusicon/user"]:not([src*="user_offline.gif"]) {
+    filter: initial;
+}
+
+/* colores necesarios para tema oscuro */
+font[color="Black"] {
+    color: var(--tx01);
+}
+
+font[color="#000000"] {
+    color: var(--tx01);
+}
+
+font[color="#f1f1f1"] {
+    color: var(--bg03);
+}
+
+font[color="White"] {
+    color: var(--bg01);
+}
+
+font[color="Silver"] {
+    color: #2c2c2c;
+}
+
+font[color="Red"] {
+    color: #f75252;
+}
+
+font[color="DarkRed"] {
+    color: #b33636;
+}
+
+font[color="Navy"] {
+    color: #5c95e5;
+}
+
+font[color="Blue"] {
+    color: #91baf2;
+}
+
+font[color="Green"] {
+    color: #85e585;
+}
+
+font[color="DarkGreen"] {
+    color: #5cbf5c;
+}
+
+font[color="Yellow"] {
+    color: #f2f26d;
+}
+
+img[id^="vB_Editor"][style="background-color: Black;"] {
+    background: var(--tx01) !important;
+}
+
+img[id^="vB_Editor"][style="background-color:black"] {
+    background: var(--tx01) !important;
+}
+
+img[id^="vB_Editor"][style="background-color: White;"] {
+    background: var(--bg01) !important;
+}
+
+img[id^="vB_Editor"][style="background-color: Silver;"] {
+    background: #2c2c2c !important;
+}
+
+img[id^="vB_Editor"][style="background-color: Red;"] {
+    background: #f75252 !important;
+}
+
+img[id^="vB_Editor"][style="background-color: DarkRed;"] {
+    background: #b33636 !important;
+}
+
+img[id^="vB_Editor"][style="background-color: Navy;"] {
+    background: #5c95e5 !important;
+}
+
+img[id^="vB_Editor"][style="background-color: Blue;"] {
+    background: #91baf2 !important;
+}
+
+img[id^="vB_Editor"][style="background-color: Green;"] {
+    background: #85e585 !important;
+}
+
+img[id^="vB_Editor"][style="background-color: DarkGreen;"] {
+    background: #5cbf5c !important;
+}
+
+img[id^="vB_Editor"][style="background-color: Yellow;"] {
+    background: #f2f26d !important;
+}
+
+/* fin parametros tema oscuro */
