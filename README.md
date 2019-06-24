@@ -12,3 +12,15 @@ Gracias a badjojo por crearlo.
 Instala [Stylus](https://add0n.com/stylus.html) para [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) u [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) o [Cascadea para Safari](https://cascadea.app/) y instala el tema desde:
 
 📦 [Instalar via UserCSS](https://raw.githubusercontent.com/pdp-devs/fc-material-design/master/fc-material.user.css). Este formato soporta personalización y se actualiza automáticamente. <br>
+
+## Personalización
+
+Para cambiar los ajustes del tema es muy sencillo:
+
+1- Hacer click en el icono de Stylus y después en la tuerca de configuración 
+
+![](./images/config/config1.png)
+
+2- Escoger el tema que queremos utilizar 
+
+![](./images/config/config2.png)
