@@ -274,6 +274,14 @@
             background: #f2f26d !important;
         }
 
+        div#vB_Editor_QR_controls * {
+            background-color: transparent !important;
+        }
+
+        div#vB_Editor_001_controls .imagebutton{
+            background-color: transparent !important;
+        }
+
         /* fin parametros tema oscuro */
 
     }
