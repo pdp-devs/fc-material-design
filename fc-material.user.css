@@ -274,7 +274,7 @@
             background: #f2f26d !important;
         }
 
-        div#vB_Editor_QR_controls * {
+        div#vB_Editor_QR_controls .imagebutton {
             background-color: transparent !important;
         }
 
