@@ -2,7 +2,7 @@
 @name         Forocoches Material Design
 @namespace    pdp-devs
 @description  Estilo material design de @badjojo.
-@version      0.0.2
+@version      0.0.3
 @author       PDP Devs
 @homepageURL  https://github.com/pdp-devs/fc-material-design
 @updateURL    https://raw.githubusercontent.com/pdp-devs/fc-material-design/master/fc-material.user.css
@@ -274,7 +274,7 @@
             background: #f2f26d !important;
         }
 
-        div#vB_Editor_QR_controls * {
+        div#vB_Editor_QR_controls .imagebutton {
             background-color: transparent !important;
         }
 
