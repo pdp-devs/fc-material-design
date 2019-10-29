@@ -2,7 +2,7 @@
 @name         Forocoches Material Design
 @namespace    pdp-devs
 @description  Estilo material design de @badjojo.
-@version      0.0.5
+@version      0.0.6
 @author       PDP Devs
 @homepageURL  https://github.com/pdp-devs/fc-material-design
 @updateURL    https://raw.githubusercontent.com/pdp-devs/fc-material-design/master/fc-material.user.css
@@ -407,11 +407,11 @@
     td.cmini > form[name="busca"] {
         display: none;
     }
-    /* Icono multip�gina */
+    /* Icono multipágina */
     img[src*="/misc/multipage.png"] {
         display: none;
     }
-    /* Tablas vac�as bajo cabecera */
+    /* Tablas vacías bajo cabecera */
     table.cajasnews td[bgcolor="#f5f5f5"][align=left][width="65%"],
     table.cajasnews td[bgcolor="#f5f5f5"][align=left][width="65%"] + td[bgcolor="#f5f5f5"][align=right],
     div[id="1st"],
@@ -486,7 +486,7 @@
         margin-bottom: 0 !important;
         background: 0 0;
     }
-    /* tabla amarilla pie de p�gina */
+    /* tabla amarilla pie de página */
     table.cajasprin > tbody > tr > td[bgcolor="#ffffe0"][align=center] {
         display: none;
     }
@@ -653,17 +653,17 @@
         display: block;
         color: var(--co03);
     }
-    /* pie de p�gina foro */
+    /* pie de página foro */
     td.cmini {
         border: none !important;
         padding: 8px 4px;
     }
-    /* borde y fondo tabla pie de p�gina */
+    /* borde y fondo tabla pie de página */
     table[style="border-collapse: collapse"][bordercolordark="#000000"][bordercolorlight="#000000"][bordercolor="#111111"][bgcolor="#CCCCCC"] {
         border: 1px solid transparent;
         background: 0 0;
     }
-    /* pie de p�gina foro quitar color superpuesto */
+    /* pie de página foro quitar color superpuesto */
     td.cmini[bgcolor="#FFFFFF"] {
         background: 0 0;
     }
@@ -672,7 +672,7 @@
         border-left: 1px solid var(--bg02);
         border-right: 1px solid var(--bg02);
     }
-    /* pie de p�gina inicio */
+    /* pie de página inicio */
     td.contenido[style="border-right:1px solid #CCCCCC; border-top:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;"], td.contenido[style="border-left:1px solid #CCCCCC; border-top:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;"], td.contenido[style="border-right:1px solid #CCCCCC; border-left:1px solid #CCCCCC; border-top:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;"] {
         background: 0 0 !important;
         padding: 8px 5px 9px;
@@ -681,7 +681,7 @@
     td.contenido[style="border-left:1px solid #CCCCCC; border-top:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;"] a {
         font-weight: 400;
     }
-    /* pantalla resultados b�squeda con buscador de google */
+    /* pantalla resultados búsqueda con buscador de google */
     .panelsurround table#AutoNumber1 td[bordercolor="#C0C0C0"][bgcolor="#FBFBFB"] {
         background: var(--bg03);
         border: 1px solid !important;
@@ -764,7 +764,7 @@
     table.cajascat, table.cajasprin {
         border: 0;
     }
-    /* tabla final p�gina */
+    /* tabla final página */
     td.contenido table#AutoNumber7 {
         display: none;
     }
@@ -1277,7 +1277,7 @@
     }
 
     /* FOROS */
-    /* resultados b�squeda */
+    /* resultados búsqueda */
     form#inlinemodform > table.tborder:first-of-type {
         border: 0;
     }
@@ -1325,7 +1325,7 @@
     }
 
 
-    /* Dise�o lista de foros */
+    /* Diseño lista de foros */
     tbody[id^=collapseobj_forumbit] td.alt1 {
         width: 100%;
     }
@@ -1333,7 +1333,7 @@
     table.tborder[cellpadding="5"] > thead {
         display: none;
     }
-    /* Tama�o icono */
+    /* Tamaño icono */
     tbody[id^=collapseobj_forumbit] td.alt2:nth-child(1) {
         width: 46px;
         height: 46px;
@@ -1409,7 +1409,7 @@
         height: 10px;
     }
 
-    /* Tam�ao se adapta a contenido */
+    /* Tamaño se adapta a contenido */
     #threadslist td:nth-child(4),
     #threadslist td:nth-child(5),
     #threadslist td:nth-child(6) {
@@ -1433,7 +1433,7 @@
         padding-left: 48px !important;
     }
 
-    /* Ir al �ltimo mensaje */
+    /* Ir al último mensaje */
     #threadslist [id^=td_threadtitle] + td.alt2 {
         background: transparent;
         padding-right: 32px !important;
@@ -1457,7 +1457,7 @@
         box-shadow: var(--bsh2);
     }
 
-    /* DISE�O DE FORO */
+    /* DISEÑO DE FORO */
     /* LATER */
     /* BASE */
 
@@ -1496,7 +1496,7 @@
         /* 		border-color: var(--bg02) !important */
     }
 
-    /* LISTADO P�GINAS */
+    /* LISTADO PÁGINAS */
     div.pagenav table.tborder td.vbmenu_control:nth-child(1) {
         display: none;
     }
@@ -1507,7 +1507,7 @@
     div.pagenav .alt2, div.pagenav .alt1 {
         padding: 0 2px;
     }
-    /* Fix alinear con bot�n */
+    /* Fix alinear con botón */
     div.pagenav table.tborder {
         margin-bottom: 1px;
     }
@@ -1525,7 +1525,7 @@
         transition: all .12s ease-out;
         filter: var(--invert);
     }
-    /* Ir a siguiente p�gina */
+    /* Ir a siguiente página */
     div.pagenav td.alt1:nth-last-child(2) a.smallfont, div.pagenav td.alt1:nth-last-child(3) a.smallfont {
         color: transparent;
         font: 0/0 a;
@@ -1536,7 +1536,7 @@
         width: 26px;
         height: 26px;
     }
-    /* Ir a anterior p�gina */
+    /* Ir a anterior página */
     div.pagenav td.alt1:nth-child(2) a.smallfont, div.pagenav td.alt1:nth-child(3) a.smallfont {
         color: transparent;
         font: 0/0 a;
@@ -1547,7 +1547,7 @@
         width: 26px;
         height: 26px;
     }
-    /* Ir a p�gina... */
+    /* Ir a página... */
     div.pagenav td[id^=pagenav].vbmenu_control {
         padding: 2px 0 2px 2px !important;
         width: 26px !important;
@@ -1565,7 +1565,7 @@
     div.pagenav td[id^=pagenav].vbmenu_control img:hover {
         background-color: var(--rgb2i);
     }
-    /* Ir a primera p�gina */
+    /* Ir a primera página */
     div.pagenav td.alt1[nowrap=nowrap]:nth-child(2) a.smallfont {
         color: transparent;
         font: 0/0 a;
@@ -1576,7 +1576,7 @@
         width: 26px;
         height: 26px;
     }
-    /* Ir a ultima p�gina */
+    /* Ir a ultima página */
     div.pagenav td.alt1[nowrap=nowrap]:nth-last-child(2) a.smallfont {
         color: transparent;
         font: 0/0 a;
@@ -1589,7 +1589,7 @@
         -webkit-transition: all .12s ease-out;
         transition: all .12s ease-out;
     }
-    /* P�ginas no seleccionadas */
+    /* Páginas no seleccionadas */
     div.pagenav a.mfont {
         font-size: 17px;
         color: var(--tx01);
@@ -1609,7 +1609,7 @@
     div.pagenav a.smallfont:hover, div.pagenav a.smallfont:active {
         background-color: var(--rgb2i);
     }
-    /* p�gina seleccionada */
+    /* página seleccionada */
     div.pagenav span.mfont {
         font-size: 17px;
         background: var(--rgb1);
@@ -1640,7 +1640,7 @@
     [id^="td_threadtitle"] img[src*="/rating_"] {
         margin-top: 6px;
     }
-    /* Lista p�ginas */
+    /* Lista páginas */
     [id^=td_threadtitle] span.smallfont {
         font-size: 0 !important;
     }
@@ -1765,7 +1765,7 @@
     #threadslist > tbody[id^="collapseobj_st_"] {
         background: var(--bg04);
     }
-    /* Quita contenedor vac�o */
+    /* Quita contenedor vacío */
     #threadslist > tbody[id^="collapseobj_st_"] > tr:nth-last-child(1) {
         display: none;
     }
@@ -1877,7 +1877,7 @@
         top: 11px;
         right: 44px;
     }
-    /* navegaci�n foro */
+    /* navegación foro */
     table.tborder[cellpadding="5"] > tbody > tr > td.alt1[width="100%"] {
         padding-left: 0;
         background: var(--bg01);
@@ -1894,7 +1894,7 @@
     table.tborder:nth-child(2) {
         border: 0;
     }
-    /* iconos navegaci�n foro */
+    /* iconos navegación foro */
     img[src*="/misc/navbits_finallink.gif"], img[src*="/misc/navbits_start.gif"] {
         display: none;
     }
@@ -2174,7 +2174,7 @@
     table.page {
         display: none;
     }
-    /* Tama�o tcat */
+    /* Tamaño tcat */
     td.tcat {
         height: 24px;
         padding: 4px 16px;
@@ -2222,7 +2222,7 @@
     a#usercptools img {
         opacity: .8;
     }
-    /* Dise�o barra de herramientas */
+    /* Diseño barra de herramientas */
     table#AutoNumber7 {
         margin-bottom: 16px;
         box-shadow: var(--bsh4);
@@ -2231,7 +2231,7 @@
     div.tborder[style="padding:1px; border-top-width:0px"] > table > tbody > tr {
         text-align: left;
     }
-    /* Dise�o */
+    /* Diseño */
     div.tborder[style="padding:1px; border-top-width:0px"] .vbmenu_control {
         box-sizing: border-box;
         font-weight: 400 !important;
@@ -2240,7 +2240,7 @@
         height: 32px;
         display: inline-block;
     }
-    /* enlaces barra de herramientas y barra pie de p�gina */
+    /* enlaces barra de herramientas y barra pie de página */
     td.vbmenu_control a {
         position: relative;
         z-index: 4 !important;
@@ -2341,13 +2341,13 @@
     }
 
 
-    /* DISE�O DE POSTS */
+    /* DISEÑO DE POSTS */
     /* BASE */
-    /* Quitar espacio vac�o bajo primer post de cada hilo */
+    /* Quitar espacio vacío bajo primer post de cada hilo */
     #posts table[id^=post]:not([style="table-layout: fixed; width: 100%;"]) tr:not(:nth-child(3)), div[id^=edit][style="padding:0px 0px 5px 0px"] > br {
         display: none;
     }
-    /* Quita contenedor vac�o final de posts */
+    /* Quita contenedor vacío final de posts */
     #posts #lastpost {
         display: none;
     }
@@ -2453,7 +2453,7 @@
     a.bigusername:hover {
         color: var(--tx01);
     }
-    /* Avatar redondo y posici�n */
+    /* Avatar redondo y posición */
     .smallfont > br + a[href^="member.php?u="] {
         position: absolute;
         top: 0;
@@ -2472,12 +2472,12 @@
         margin-left: -1px;
         margin-top: -1px;
     }
-    /* A�ade hueco para avatar */
+    /* Añadee hueco para avatar */
     div[id^="postmenu_"]:not(.vbmenu_popup) {
         margin-top: 131px;
     }
 
-    /* A�ade avatar predeterminado */
+    /* Añadee avatar predeterminado */
     div[id^="postmenu_"]:not(.vbmenu_popup) + div:after {
         position: absolute;
         content: "";
@@ -2491,7 +2491,7 @@
         top: 1px;
         margin: 0 41px;
     }
-    /* Fix para t�tulos personales que descuadran */
+    /* Fix para títulos personales que descuadran */
     div[id^="postmenu_"] + div {
         min-height: 17px;
         max-height: 17px;
@@ -2632,11 +2632,11 @@
         bottom: -40px;
         padding: 0;
     }
-    /* Quitar bot�n bajar */
+    /* Quitar botón bajar */
     a[id^="qr_"] {
         display: none;
     }
-    /* T�tulo hilo */
+    /* Título hilo */
     [id^="td_post_"] .smallfont {
         font-size: 16px;
     }
@@ -2689,7 +2689,7 @@
         margin-bottom: 16px;
         text-transform: lowercase;
     }
-    /* Corrige may�sculas */
+    /* Corrige mayúsculas */
     #HOTWordsTxt .alt2 > div:nth-child(1):first-letter {
         text-transform: uppercase;
     }
@@ -2715,6 +2715,7 @@
     div[style="margin:20px; margin-top:5px; "],
     div[style="margin:20px; margin-top:5px"] {
         margin: 16px 0 !important;
+        background-color: var(--bg04);
     }
     /* Quita margen superior si contenedor es primer elemento de post o cita */
     #HOTWordsTxt > div[id^="post_message_"] > div:first-child,
@@ -2745,7 +2746,7 @@
     form[action^="poll.php?"] fieldset > legend {
         display: none;
     }
-    /* A�adir borde a lista de opciones de encuesta */
+    /* Añadeir borde a lista de opciones de encuesta */
     table[id^="fcthread"] + table[style="margin-bottom:5px"] + table.tborder > tbody > tr:not(:nth-child(1)):not(:nth-last-child(1)) {
         border-bottom: 1px solid var(--bg02);
         border-right: 32px solid transparent;
@@ -2905,7 +2906,7 @@
     label[for=navbar_username], label[for=navbar_password] {
         display: none;
     }
-    /* navegaci�n pie de p�gina */
+    /* navegación pie de página */
     table[style="margin-top:-2px"] + br + #table3 + br + br + table.tborder, table[style="margin-top:-2px"] + br + table.tborder, table[style="margin-top:3px"] + br + table.tborder, table[style="margin-top:3px"] + br + table.tborder + br + table.tborder {
         border: 0;
         background: 0 0;
@@ -3142,11 +3143,11 @@
     td[style="padding-left: 0px; border-left: 1px solid $color-blueDark"] {
         border-left: 1px solid transparent !important;
     }
-    /* Tama�o selector de Tama�o texto en editor de mensajes */
+    /* Tamaño selector de Tamaño texto en editor de mensajes */
     div[id^=vB_Editor][style="width: 25px;"], div[id^=vB_Editor][style="width:25px"] {
         width: 48px !important;
     }
-    /* fix borde fuentes y Tama�o */
+    /* fix borde fuentes y Tamaño */
     .popup_feedback {
         background: 0 0 !important;
         border-right: 1px solid var(--co01) !important;
@@ -3155,7 +3156,7 @@
     .alt_pickbutton {
         border-left: 1px solid var(--co01);
     }
-    /* texto selector fuentes y Tama�os */
+    /* texto selector fuentes y Tamaños */
     .popup_feedback div {
         color: var(--tx01);
     }
@@ -3234,7 +3235,7 @@
     .wysiwyg a:link, .wysiwyg a:visited {
         color: var(--tx04) !important;
     }
-    /* Tama�o editores de mensajes */
+    /* Tamaño editores de mensajes */
 
     /* editor de mensajes rapido */
     div[style="max-width:880px; width:auto !important; width:880px"] {
@@ -3494,7 +3495,7 @@
     input[src="clear.gif"] {
         display: none;
     }
-    /* nueva barra de b�squeda */
+    /* nueva barra de búsqueda */
     .cfield + input + input + .cbutton {
         background-color: transparent !important;
         position: relative;
@@ -3945,7 +3946,7 @@
     }
 
 
-    /* Dise�o RESPONSIVO */
+    /* Diseño RESPONSIVO */
     @media (max-width: 1180px) {
         /* iconos hilos */
         fieldset.fieldset[style="margin-top: 5px"] tr, fieldset.fieldset[style="margin-top: 5px"] tr:nth-child(3) td:nth-child(1) {
@@ -3982,7 +3983,7 @@
             left: 13px;
         }
 
-        /* navegaci�n foro */
+        /* navegación foro */
         table.tborder[cellpadding="5"] > tbody > tr > td.alt1[width="100%"] {
             padding-left: 14px;
         }
@@ -3993,7 +3994,7 @@
             margin: 0;
         }
 
-        /* deja peque�o margen en panel de control */
+        /* deja pequeño margen en panel de control */
         .page table tr[valign="top"] > td + td + td[width="100%"] {
             padding-right: 12px;
         }
@@ -4078,7 +4079,7 @@
             transform: translateX(34px);
         }
 
-        /* pie de p�gina */
+        /* pie de página */
         td.cmini[style="border-right:1px solid #CCCCCC; border-top:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;"], td.contenido[style="border-right:1px solid #CCCCCC; border-top:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;"] {
             display: none;
         }
@@ -4169,7 +4170,7 @@
     } */
 
     /* WIP */
-    /* resultados b�squeda */
+    /* resultados búsqueda */
     #inlinemodform [id^="post"] {
         position: relative
     }
