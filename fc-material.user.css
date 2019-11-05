@@ -969,7 +969,15 @@
         width: 0;
         height: 24px;
         padding-right: 24px;
-        background: url("data:image/png;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTkgNi40MUwxNy41OSA1IDEyIDEwLjU5IDYuNDEgNSA1IDYuNDEgMTAuNTkgMTIgNSAxNy41OSA2LjQxIDE5IDEyIDEzLjQxIDE3LjU5IDE5IDE5IDE3LjU5IDEzLjQxIDEyeiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=") center/24px no-repeat;
+    }
+    if theme == light {
+        [src*="foro/images/misc/cross.png"] {
+         background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAz0lEQVQ4jbXTTQrCMBCG4Rd/qOcTBBWUVqog4mFU0IXo3oUbwdtZddEGYsgkE9EPZpWZh9BO4I/pAUdgmDAzBfZA14fdgRdQAWMFNgOezczVRc/NgakYamOmdu7V3QYJ9WEVMNA2jhQ94ncvhIESWKdiIdRXKswkj6BJmMkqABbSUCsAtr8886YM3C5l+VVYEjr3DD6of9IS/fIDsBAw+wXkAmovP1C/gBhmIi3/R+9JidkXcNGN3ZABNyXmQy9Ax23IgAPQV2AmE2Drw36WN8RDldDv/mnyAAAAAElFTkSuQmCC") center/16px no-repeat;
+        }
+    } else if theme == dark {
+        [src*="foro/images/misc/cross.png"] {
+            background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB1UlEQVQ4ja2Tz2oTURTGf2caiEKSTfIWbrpxZkCfoIjSbkQFSWu0UGbGhS+QrRvBzNBF1LpQRCrVhWtBXB4MVhRdKIJ/lr5A0Pa4ycRJcicp4rca7nfP755v7rnwnyX5R7vdPlav11MRedHr9R4fpTiO48tAOBwOr/f7/V8ASzmsVqvtich5YM33/c+q+m4BbAPYAU5WKpUTy8vLzwaDwaEH0Gg0tkVkZbTXE5EHURRdXAC7W0i4Vq1WbwF4AGb2ErBCTSnUAQM4NLNX48iq+jYIgu/A2cJGEZHVIAg+qer7eTARuZSm6S5TBlEUrYvIPUfBJnDczG67YMVLnADOgbo0AxtHLkpV94Mg+AqcmwN1wpzAHBqG4U9gxeWb2ZU0TR+6PK+kA8zMeRiA53mlntNIkqQDbJcVAWfKhn8GmCRJx8zuzIHBaKRc0InIcRxfdcAOgHVgiyMM/7jDJEmuAf1pmJldyLLskaq+dtz+zPAvjTrbAGY6G8Ge5Auquu/7/jcRmXhRwKrv+x9V9UMe+dQiWK4sy+4DHUf80/D3H24BzxfBcqVpujMF3W02mzfGkVX1IAiCpyLSAm5mWbZXBivEfxOG4Rcz+9FqtTa73e7vRTX/pD9cPNUxfhk3owAAAABJRU5ErkJggg==") center/16px no-repeat;
+        }
     }
     /* hilos con notificaciones */
     [id^=td_threadtitle][style="background-color: #ffd1d1;"], [id^=td_threadtitle][style="background-color: #fffde4;"] {
