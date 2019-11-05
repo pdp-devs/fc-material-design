@@ -2,7 +2,7 @@
 @name         Forocoches Material Design
 @namespace    pdp-devs
 @description  Estilo material design de @badjojo.
-@version      0.0.7
+@version      0.0.8
 @author       PDP Devs
 @homepageURL  https://github.com/pdp-devs/fc-material-design
 @updateURL    https://raw.githubusercontent.com/pdp-devs/fc-material-design/master/fc-material.user.css
@@ -173,7 +173,7 @@
 
         /* compatibilidad */
         img[src*="/editor/"], /*img[src*="/statusicon/"],*/
-        img[src*="/misc/"], img[src*="/buttons/"], img[src*="images/mention.png"] {
+        img[src*="/misc/"], img[src*="/buttons/"]:not([src*="/buttons/report.png"]), img[src*="images/mention.png"] {
             filter: invert(100%);
         }
 
@@ -2576,7 +2576,7 @@
         width: 0;
         height: 18px;
         padding-right: 18px;
-        background: url("data:image/png;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTEgMjFoMjJMMTIgMiAxIDIxem0xMi0zaC0ydi0yaDJ2MnptMC00aC0ydi00aDJ2NHoiLz48L3N2Zz4=") center no-repeat;
+        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAACVklEQVQ4jc3Tv08TYRzH8Xfvnnq9Xq8/Au3ZNm2aGIVFEuICEmOkwaG6CAsGg/xIBAOVRGMMmBgG/wI2QgziYJSYuNBFUwcGVxMGE0dZIOmVVlpTCfTOQcEgWCiTn+2e+35fz30vzwP/exxHFdjgeAdzDlA+wu1psGrVi6PA97p+P+TzDQN0FItfKJef1qqXar18CUYgGLxrFYvYpRL+YPDOAkRPDIbC4Xtic/OMPDCANDyMXCrFYobx4ETgC4j73e6Bqm0j+vsRfX3YkoRX0249hzN1g7FI5KFcKETE0BC43aAoiJER5EIhmIhEHtcFvoJzutt9syoEcm8v2WyWbDaL3NODpWl4VbVnEc4fGwxHo1OyaTaI0VEcisLS0hKZTAaEwDk+jsM0vaej0Sf2IcfuAPjG6Wz1KEq3peuI7m4ANE1D07RfDakUdiiEx+m8/lZVO2qC0yCFDGNKMk1djI2BEAdAJAk5ncaRz7tCDQ1Ts+D8J3hB1y96ZPmaHQohp1J7683NzTQ1Ne09y52d2IkEbuiKe71dh4KLcMoXCEySz6tyOg3Sn71yuRymae4bTUxMwMaG8Pn9jxZBPQB6AoGkZllXSSSQk8l9zZVKhXK5vP9ftbVBSwuunZ1L3sbGG7vrjt9fp8bi8YySy10RMzNI7e0cJ9bKCtuDg/wwjE/Lq6vJSSgIgC2IulT1smVZVOfmqM7PHwvEtsG2UV2uVqAV+CAAFFgtrK29dhvGWds0a97vv7MdDovK+vrXWfi8N/JunoFeDwawAI3L8A34DmzV239kfgJCEqKE5k6kewAAAABJRU5ErkJggg==") center no-repeat;
         background-size: cover;
         margin-left: 7px;
         margin-top: 6px;
