@@ -2,7 +2,7 @@
 @name         Forocoches Material Design
 @namespace    pdp-devs
 @description  Estilo material design de @badjojo.
-@version      0.0.8
+@version      0.0.9
 @author       PDP Devs
 @homepageURL  https://github.com/pdp-devs/fc-material-design
 @updateURL    https://raw.githubusercontent.com/pdp-devs/fc-material-design/master/fc-material.user.css
@@ -173,7 +173,7 @@
 
         /* compatibilidad */
         img[src*="/editor/"], /*img[src*="/statusicon/"],*/
-        img[src*="/misc/"], img[src*="/buttons/"]:not([src*="/buttons/report.png"]), img[src*="images/mention.png"] {
+        img[src*="/misc/"], img[src*="/buttons/"]:not([src*="/buttons/report.png"]):not([src*="/buttons/threadclosed.gif"]), img[src*="images/mention.png"] {
             filter: invert(100%);
         }
 
@@ -4295,10 +4295,10 @@
     }
 
     /* Responder */
-    a[href^="newreply.php?do=newreply&noquote="] > img {
+    a[href*="noquote"] > img {
         display: none;
     }
-    a[href^="newreply.php?do=newreply&noquote="]:after {
+    a[href*="noquote"]:after {
         content: "RESPONDER";
         display: inline-block;
         background: var(--c200);
@@ -4313,16 +4313,16 @@
         transition: .12s;
         box-shadow: var(--bsh2);
     }
-    a[href^="newreply.php?do=newreply&noquote="]:hover:after {
+    a[href*="noquote"]:hover:after {
         background: var(--rs1h);
         box-shadow: var(--bsh4);
         color: var(--co04);
     }
-    a[href^="newreply.php?do=newreply&noquote="]:focus:after {
+    a[href*="noquote"]:focus:after {
         box-shadow: var(--bsh8);
     }
     /* Tema cerrado */
-    a[href^="newreply.php?do=newreply&noquote="] {
+    a[href*="noquote"] {
         position: relative;
     }
     img[src="//st.forocoches.com/foro/images/buttons/threadclosed.gif"] {
