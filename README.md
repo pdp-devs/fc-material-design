@@ -7,6 +7,10 @@ Gracias a badjojo por crearlo.
 ## Vista previa
 ![](./images/screenshots/light-dark.png)
 
+## Contribuir
+
+Para contribuir, clonar el repo. Crear una nueva issue o esvoger una issue a corregir. Crear una nueva rama DESDE LA RAMA release, con nombre issue/### siendo ### el número de la issue. Una vez acabado, subir el código a tu rama issue/### y hacer una PR desde issue/### hacia release.
+
 ## Instalación
 
 Instala [Stylus](https://add0n.com/stylus.html) para [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) u [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) o [Cascadea para Safari](https://cascadea.app/) y instala el tema desde:
