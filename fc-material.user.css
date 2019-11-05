@@ -2,7 +2,7 @@
 @name         Forocoches Material Design
 @namespace    pdp-devs
 @description  Estilo material design de @badjojo.
-@version      0.0.9
+@version      0.0.10
 @author       PDP Devs
 @homepageURL  https://github.com/pdp-devs/fc-material-design
 @updateURL    https://raw.githubusercontent.com/pdp-devs/fc-material-design/master/fc-material.user.css
@@ -11,7 +11,8 @@
 @preprocessor stylus
 
 @var select theme "Tema" ["light:Tema claro", "dark:Tema oscuro"]
-
+@var select quoteStyle "Estilo de citas" ["simple:Simple", "shadow:Con sombra"]
+@var range opacity "Opcidad sombra citas" 29
 ==/UserStyle== */
 
 @-moz-document regexp("(http[s]?:\\/\\/)*www.forocoches.*") {
@@ -2719,12 +2720,18 @@
     .smallfont[style="font-weight:bold; margin-left:8px; margin-bottom:2px"] {
         display: none;
     }
+
     /* Margen exterior para contenedor */
     div[style="margin:20px; margin-top:5px; "],
     div[style="margin:20px; margin-top:5px"] {
-        margin: 16px 0 !important;
-        background-color: var(--bg04);
+            margin: 16px 0 !important;
+            background-color: var(--bg04);
+        if quoteStyle == shadow {
+            box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, opacity/100)
+        }
     }
+
+
     /* Quita margen superior si contenedor es primer elemento de post o cita */
     #HOTWordsTxt > div[id^="post_message_"] > div:first-child,
     #HOTWordsTxt .alt2 > div[style="margin:20px; margin-top:5px; "],
