@@ -3802,6 +3802,11 @@
         padding-right: 33px;
         background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAQAAABIkb+zAAACVklEQVR4Ae3YIUxbURTG8T9hRSA2U8ymNreJpcFuEiRQBWJiyKFoakGCBKpAgmSKppZJkGNVTG1qEytmEwgawplq8nJuelNuXt47Lzm/z72ae9SXfjjnnHPOudzNIyrzVMoRonJIhczyD1H5yyyVsY4Q5iOVcYkQ5oKKeIOMyWsqYR8Zkz0qYIYbZExumMG8NSSSVcz7gkRyjnGveEAyGTJEMnngJabtItlwRld92cGwaX6r567QVF9+MY1Zy+qxf3hCjYH6uoRZPfXUAwA66msPo15wr576FoCG+nrPc0zaVg/9xkhf/bKFQVP8VM/cZKSlfvnBFOYsIqoB6ozMqTYQFjDnc9AAWboNTjGmzl3QAFm6De6oY0qbsAGywjZoY8r3oAE03QbXGPIeCRpAayAq7zDjJGiAUNgGxxjxjNugAUJhG9zyFBM2xjSAFrbBJ0y4ijVAtA2+2lxBVxinaXExPSLeAPE2OLS3gh4Q07G2mK5HGyDUsLaYXsYaYKI2uLC1gm6iaS1Li+l+vAEmbIM9OyvoGZPoWllM15CcsmpjBU3PuYEVNCElL6a7SI7ZKWkFTU/Zi+kyknOWSlhBc02vpBU0PWUuptuISpPHaiIqW+WtoANqPFaNQVmL6SKi0iFFB1FZKGcFFRqkaCAqp+WsoH1S9ctYTNuISotULUSlXfwKOmSOVOF/g+viV9AukK5b9GJ6Em+AHNrguNgVNKUBVBsUuZhu5NQAqg2KW0yvcmoA3QaJi6lzzjnnnPtQ8fgBfoAf4Af4AX6AH+AH+AH24wdYzX/dn1uGZ/b7eAAAAABJRU5ErkJggg==") right 5px center;
     }
+    img[src*="/image/twitter_logo_blue.png"],
+    img[src*="/varios/instagram_logo.png"] {
+        padding-top: 6px;
+        padding-left: 6px;
+    }
     img[src*="/editor/"]:not([src*="/editor/separator.gif"]):not([src*="/editor/menupop.gif"]), img[src*="/images/mention.png"] {
         width: 0;
         height: 32px;
