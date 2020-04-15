@@ -3213,6 +3213,11 @@
         border: none !important;
         box-shadow: var(--bsh2);
     }
+    /* instagram embed */
+    iframe[id^=instagram-embed-] {
+        background: inherit !important;
+        border-radius: 5px !important;
+    }
     /* editor rapido */
     div.controlbar[style="padding-right:8px"] {
         padding-right: 0 !important;
