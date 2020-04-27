@@ -9,7 +9,7 @@ Gracias a badjojo por crearlo.
 
 ## Contribuir
 
-Para contribuir, clonar el repo. Crear una nueva issue o esvoger una issue a corregir. Crear una nueva rama DESDE LA RAMA release, con nombre issue/### siendo ### el número de la issue. Una vez acabado, subir el código a tu rama issue/### y hacer una PR desde issue/### hacia release.
+Para contribuir, clonar el repo. Crear una nueva issue o escoger una issue a corregir. Crear una nueva rama DESDE LA RAMA release, con nombre issue/### siendo ### el número de la issue. Una vez acabado, subir el código a tu rama issue/### y hacer una PR desde issue/### hacia release.
 
 ## Instalación
 
