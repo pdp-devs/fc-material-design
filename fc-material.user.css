@@ -4422,7 +4422,7 @@
         border-top: 0;
     }
 }
-@-moz-document regexp("(http[s]?:\\/\\/)*www.instagram.com/.*") {
+@-moz-document regexp("(http[s]?:\/\/)*www.instagram.com/p/.*/embed.*") {
 	if theme == dark {
         /* parametros tema oscuro */
         :root {
