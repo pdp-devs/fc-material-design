@@ -2,7 +2,7 @@
 @name         Forocoches Material Design
 @namespace    pdp-devs
 @description  Estilo material design de @badjojo.
-@version      0.0.12
+@version      0.0.13
 @author       PDP Devs
 @homepageURL  https://github.com/pdp-devs/fc-material-design
 @updateURL    https://raw.githubusercontent.com/pdp-devs/fc-material-design/master/fc-material.user.css
@@ -4421,4 +4421,36 @@
     #threadslist tr:nth-child(n+2):nth-child(-n+3) {
         border-top: 0;
     }
+}
+@-moz-document regexp("(http[s]?:\/\/)*www.instagram.com/p/.*/embed.*") {
+	if theme == dark {
+        /* parametros tema oscuro */
+        :root {
+            /* colores */
+            --bg01: #232323; /* editor */
+			--tx01: #d1d1d1; /* texto 1 */
+            --tx02: #6e6e6e; /* texto 2 */
+            --tx03: #fff; /* no modificar */
+        }
+		 /* instagram embed */
+		body, .HoverCard .HoverCardRoot {
+			background: var(--bg01) !important;
+		}
+		.PrimaryCTA {
+			border-color: var(--tx02);
+			background: inherit;
+		}
+		.ViewProfileButton {
+			color: var(--tx03) !important;
+		}
+		.UsernameText, a, .Caption, .Username {
+			color: var(--tx01) !important;
+		}
+		.LikeSprite, .hideText {
+			filter: contrast(0%);
+		}
+		.Footer {
+			border: 0px;
+		}
+	}
 }
