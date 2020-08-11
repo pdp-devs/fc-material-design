@@ -2,7 +2,7 @@
 @name         Forocoches Material Design
 @namespace    pdp-devs
 @description  Estilo material design de @badjojo.
-@version      0.0.13
+@version      0.0.14
 @author       PDP Devs
 @homepageURL  https://github.com/pdp-devs/fc-material-design
 @updateURL    https://raw.githubusercontent.com/pdp-devs/fc-material-design/master/fc-material.user.css
@@ -4451,6 +4451,29 @@
 		}
 		.Footer {
 			border: 0px;
+		}
+	}
+}
+@-moz-document regexp("(http[s]?:\\/\\/)*vocaroo.com/embed/.*") {
+	if theme == dark {
+        /* parametros tema oscuro */
+        :root {
+            /* colores */
+            --bg01: #232323; /* editor */
+            --bg02: #333; /* barra de progreso */
+            --bg03: #cfcf9f; /* barra de progreso llena*/
+        }
+		.Player {
+			background: var(--bg01) !important;
+		}
+		.Scrubber__scrubBar {
+			background: var(--bg02) !important;
+		}
+		.Scrubber__scrubBarFill {
+			background: var(--bg03) !important;
+		}
+		.Player__itemContainer {
+			filter: contrast(0.8);
 		}
 	}
 }
