@@ -4424,14 +4424,14 @@
 }
 @-moz-document regexp("(http[s]?:\/\/)*www.instagram.com/p/.*/embed.*") {
 	if theme == dark {
-        /* parametros tema oscuro */
-        :root {
-            /* colores */
-            --bg01: #232323; /* editor */
-			--tx01: #d1d1d1; /* texto 1 */
-            --tx02: #6e6e6e; /* texto 2 */
-            --tx03: #fff; /* no modificar */
-        }
+		/* parametros tema oscuro */
+		:root {
+		    /* colores */
+		    --bg01: #232323; /* editor */
+				--tx01: #d1d1d1; /* texto 1 */
+		    --tx02: #6e6e6e; /* texto 2 */
+		    --tx03: #fff; /* no modificar */
+		}
 		 /* instagram embed */
 		body, .HoverCard .HoverCardRoot {
 			background: var(--bg01) !important;
@@ -4456,13 +4456,13 @@
 }
 @-moz-document regexp("(http[s]?:\\/\\/)*vocaroo.com/embed/.*") {
 	if theme == dark {
-        /* parametros tema oscuro */
-        :root {
-            /* colores */
-            --bg01: #232323; /* editor */
-            --bg02: #333; /* barra de progreso */
-            --bg03: #cfcf9f; /* barra de progreso llena*/
-        }
+		/* parametros tema oscuro */
+		:root {
+		    /* colores */
+		    --bg01: #232323; /* editor */
+		    --bg02: #333; /* barra de progreso */
+		    --bg03: #cfcf9f; /* barra de progreso llena*/
+		}
 		.Player {
 			background: var(--bg01) !important;
 		}
@@ -4479,14 +4479,14 @@
 }
 @-moz-document regexp("(http[s]?:\/\/)*platform.twitter.com/embed/.*www\.forocoches\.com.*") {
 	if theme == dark {
-        /* parametros tema oscuro */
-        :root {
-            /* colores */
-            --bg01: #232323; /* editor */
-			--bg02: #7b7b7b;
-            --tx01: #d1d1d1; /* no modificar */
-            --tx02: #7d7d7d; /* no modificar */
-        }
+		/* parametros tema oscuro */
+		:root {
+		    /* colores */
+		    --bg01: #232323; /* editor */
+				--bg02: #7b7b7b;
+		    --tx01: #d1d1d1; /* no modificar */
+		    --tx02: #7d7d7d; /* no modificar */
+		}
 		#app > div > div {
 			background: var(--bg01) !important;
 		}
@@ -4513,9 +4513,6 @@
 		div.css-1dbjc4n.r-9x6qib.r-t23y2h.r-1phboty.r-rs99b7.r-1udh08x.r-o7ynqc.r-6416eg,
  		div.css-1dbjc4n.r-uvzvve.r-pm2fo.r-zmljjp.r-rull8r.r-qklmqi.r-1adg3ll{
 			border-color: var(--bg02) !important;
-		}
-		
-		
+		}	
 	}
-}
 }
