@@ -4454,3 +4454,34 @@
 		}
 	}
 }
+@-moz-document regexp("(http[s]?:\/\/)*www.facebook.com/.*/plugins/post.php?.*") {
+	if (theme == dark) {
+		/* parametros tema oscuro */
+		:root {
+			/* colores */
+			--bg01: #232323; /* editor */
+			--bg02: #7b7b7b;
+			--tx01: #d1d1d1; /* no modificar */
+		}
+
+		/* Background */
+		body {
+			background-color: var(--bg01) !important;
+		}
+
+		/* Borde iframe */
+		div#u_0_2 {
+			border-color: var(--bg01) !important;
+		}
+
+		/* Borde separador */
+		div._2162._2_1h._rb9 {
+			border-color: var(--bg02) !important;
+		}
+
+		/* Usuario y mensaje post */
+		span#u_0_c, div._4i-s {
+			color: var(--tx01) !important;
+		}
+	}
+}
