@@ -3817,6 +3817,7 @@
     }
     img[src*="/image/twitter_logo_blue.png"],
     img[src*="/image/vocaroo_logo2.png"],
+    img[src*="/image/facebook_logo_blue.png"],
     img[src*="/varios/instagram_logo.png"] {
         padding-top: 6px;
         padding-left: 6px;
