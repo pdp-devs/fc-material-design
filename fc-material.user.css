@@ -12,7 +12,7 @@
 
 @var select theme "Tema" ["light:Tema claro", "dark:Tema oscuro"]
 @var select quoteStyle "Estilo de citas" ["simple:Simple", "shadow:Con sombra"]
-@var range opacity "Opcidad sombra citas" 29
+@var range opacity "Opacidad sombra citas" 29
 ==/UserStyle== */
 
 @-moz-document regexp("(http[s]?:\\/\\/)*www.forocoches.*") {
