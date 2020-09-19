@@ -184,6 +184,7 @@
             img[src*='/image/twitter_logo_blue.png'],
             img[src*="/varios/instagram_logo.png"],
             img[src*="/image/vocaroo_logo2.png"],
+            img[src*='/image/tiktok_logo.png'],
             img[src*="/image/facebook_logo_blue.png"] {
                 filter: invert(100%);
             }
@@ -3840,6 +3841,9 @@
         img[src*="/image/vocaroo_logo2.png"] {
             background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA00lEQVRIx+2UMQ6CMBSGPx2YiKN4EC+gRzB4GeOkDngObqCeQ0/ACIyocdTg0NeEANEWWYj8SfNS8r//a4EW/kUOsAcSIAYCedaaAiAvjaBNQFIDSE0aB4aAvGn/sM1t9oBuAR6oP8eVeVLjiaWOxHu3AURSp1LDGk9Y8kRYaCerOsjcQZ3cmOpVcRLvxgYwAW7SuPrgW4vnCoxtAABL4CUBR2CG+iYuMC+s/An4tuFaPpBRvYf0yIBF03AtD9gCl0LwGfXOvV/Dy9IAY3X/JPf6qjemczpBEKk4CAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMC0wOS0xNVQxMjoyMjoyOSswMDowMFlXkhUAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjAtMDktMTVUMTI6MjI6MjkrMDA6MDAoCiqpAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAABJRU5ErkJggg==");
         }
+        img[src*="/image/tiktok_logo.png"] {
+            background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACkUlEQVRIS6XVzatXdRAG8I9ZblRoYSCujMBdu6SNaBKEuGoRQUFiYGJQGlpmi0giMiMIU4LClxIKLaVNBe2qnZv+AHUjRoFgIYjZi115cibOPffX5Xr7wuG8fb/zzDzzzMwCc18LMIXXsBd/4i68Xt8W4sbYXA7NdTVADL6KP7AIn+KpAo+tOPHvmg/APuzBX7gTF/EwzmFGFPMBeAsvFx05fwc+xLbyPiB/dyTzAdiP3QUQY6Ek1wEE/NL/pWgSQGzG2R9wGmfq+de5RDDcE0/HADEeSrJCV78/G+r+CyAb+9BYZZMAek8SHyeS/Bfw3hig31tqS3B3hX8Z1wYRdB18UwrajOzvtRPvDgFa59mwGk9gDZaX/HbgFN7BrkEdHMYzeBAb634f3sSxBuh7KjOhvYRlI2624MgEgI8R73uF3ntwHVeGAKElqK/UzuYzUszahE8mAHyEpyvBMZ5z0yq5E/oYThQdSXArojc/js9nAZhE91R/XIqvi/M0rBjPv6/qSt/5vpL5dlHYvagjGAvkH8f649oCWFzyDMD7eBG/jXLRMr0tgCTpWGk4oOexDj9VS+7ekvsYoJM8awRb8cGgv4TrcD6UbhtIN02z6wiirChsVoD08+MDer7DIwXYzSxqikIO4rnBwHmj5sPE6m/UFFSSnGTH4O94El+M+F+JVO6qQRdNQX42aRYMk5wS/7J470FyoQbLt+Xt/TUaH6rI4vFZrMfPpbwZ/asHRn48ipOV1ETRRZOEp+/cW71m2Dmfx6FRrqYFPa7kDPMM9ayOZHigG1y+RRTbC3zaHB5X8pCqJDJeRf8rauO41/9SNRK5Xp3N+6Hhfm5PHqj+sgFJbNaPSD6OIiobnxnp4dbrTb2auxkVRteWAAAAAElFTkSuQmCC");
+        }
     }
     img[src*="/editor/spoiler.png"] {
         background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAQAAABIkb+zAAAEeElEQVR4Ae3b/09VdRzH8ecN4RBQJrBcCwRprjlka7lKNtoqs9bIWk7NarWVYKj9YGsq5dZPheurfQOxH5ouZpqttdWi8VOzaAgOHG250kS8YLYkC9IQuOfdz+d+uPA+59zT9Wzn8foHzpMrZ5fPZ4IpEolEIpFIJLKRZmJhfnwboYVYmB9fjITQPX74EozHD2FCC4KEOSHGbs8J+VSzgbf4nCOc4gITCJOMco5f6eQTXqOe27CCT2h1mVDAQ7xLH1OIYpMc4z1qyb8yEtbwFeOIh13mG56iIKiEPcqE+/kX8bGLtHF7ZhPuc59g7HseIZb+hA//xwShlxVhTxA6WJyphBVcQvyPcV4mOzMJ96YpQfiRqsy8VJcbCQnE0y5RT9pYfIToE7Dp5lUeZhF5QA6FVLKKJrpc5nyMhX8U04kg6oRbKCGVEhoZQtT7jkJ8KuMXBNEmKOTQwHlEuZ9ZiA+LiCNImhOgiAOIcmeowKMKhhEkkATYyCSi2qC3T+EGBhAkwIRa9Wt3gPm4VEAfggSc8KD6UzjC1egR4wsECT6BTYhynxFDbQeCpCXhTi4wTAeNlDG9g4hy21C6iwSStoR7uIggJNhPKaZiRhDVJlmGwnXEESSABGGMdZg2I8oNMJdZ7UWU+4PdrhOELSSzGNb/gJjFckS9V4D3XSfYrCXZS4hyNtXMYA7HEfVuAk8Jo5TgVIqt/6pNFik9h6jXC+AxoY1k3Yh6daRQwO+Ieq+D54QpFuC0E1EvTi7T2o7oxyrwkbAVp9WIfryACYtziH4sxqnPVUI7TlWIfgyRjeFpxNXm4nQW0ScQx6kYcbXHMRxFXO0qnBII+oQ/cbIQV+vB0IW4Wg5OEwj6hBqcslwfghkeQ1ytEKdhX99U5yGu9gyGOQwh6FeJUwfiI2EJgn6/YYHpeR+vUWhEfCSs8f8ahVzOIOo14VRGwkfCm65+/nmksB5Rr4tk+xHPCccQ9RpIKYt+RLkEN+JUypjHhApEvX6ymMEyEohyjSRbh3hKuFV9PmFTo7xmVSxODsm2YHv7q02Z0MqsrmXA17/GtYwGljDANSjcwQSi2nmKMJXQxlQACVPUoLQNUe4A01vAVtqJc5kJBjnq5X7B2HbUYnzq/6Wmuv3XJxzClVy61Kc1tcHc8jjWQx4uzeeU9jpImbDH813bSa7Hg3JOqz+FTQEmDFKORwvRfzs6SHEgN56nqcCHcvQnRSNsxpo1Ya+re+fjlOLTPA4j6g3zIqWkUsnb/I2oEzooAv8s9iHol6CbnaymimIssiikikfZxU8B3C+orU/PLXwmE5bQH/aEbHYwHu4EuJmvw54Ad9MT9oQYK/k23AkAS9nHGOJz/9CZuQTI5wnaPf5qj/MlT1KgP5wPTh4PsIte5V9yU/TyDivJd3+/ELQcllJHE20c5gRn+YsJbMYZ4SQ/cIg3qKOaPMD0QeYT/GqOEjIuRkuUcIX+/4VmQsQ8wbBpgPAm2DxLeBgnGDYbCA/jBMOmntCK0Trz40cikUgk8h/wyMdbhQxRBAAAAABJRU5ErkJggg==");
@@ -3866,15 +3870,6 @@
         padding-right: 33px;
         background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAQAAABIkb+zAAACVklEQVR4Ae3YIUxbURTG8T9hRSA2U8ymNreJpcFuEiRQBWJiyKFoakGCBKpAgmSKppZJkGNVTG1qEytmEwgawplq8nJuelNuXt47Lzm/z72ae9SXfjjnnHPOudzNIyrzVMoRonJIhczyD1H5yyyVsY4Q5iOVcYkQ5oKKeIOMyWsqYR8Zkz0qYIYbZExumMG8NSSSVcz7gkRyjnGveEAyGTJEMnngJabtItlwRld92cGwaX6r567QVF9+MY1Zy+qxf3hCjYH6uoRZPfXUAwA66msPo15wr576FoCG+nrPc0zaVg/9xkhf/bKFQVP8VM/cZKSlfvnBFOYsIqoB6ozMqTYQFjDnc9AAWboNTjGmzl3QAFm6De6oY0qbsAGywjZoY8r3oAE03QbXGPIeCRpAayAq7zDjJGiAUNgGxxjxjNugAUJhG9zyFBM2xjSAFrbBJ0y4ijVAtA2+2lxBVxinaXExPSLeAPE2OLS3gh4Q07G2mK5HGyDUsLaYXsYaYKI2uLC1gm6iaS1Li+l+vAEmbIM9OyvoGZPoWllM15CcsmpjBU3PuYEVNCElL6a7SI7ZKWkFTU/Zi+kyknOWSlhBc02vpBU0PWUuptuISpPHaiIqW+WtoANqPFaNQVmL6SKi0iFFB1FZKGcFFRqkaCAqp+WsoH1S9ctYTNuISotULUSlXfwKOmSOVOF/g+viV9AukK5b9GJ6Em+AHNrguNgVNKUBVBsUuZhu5NQAqg2KW0yvcmoA3QaJi6lzzjnnnPtQ8fgBfoAf4Af4AX6AH+AH+AH24wdYzX/dn1uGZ/b7eAAAAABJRU5ErkJggg==") right 5px center;
     }
-    if (useOriginalIcons == 1) {
-        img[src*="/image/twitter_logo_blue.png"],
-        img[src*="/image/vocaroo_logo2.png"],
-        img[src*="/image/facebook_logo_blue.png"],
-        img[src*="/varios/instagram_logo.png"] {
-            padding-top: 6px;
-            padding-left: 6px;
-        }
-    }
     img[src*="/editor/"]:not([src*="/editor/separator.gif"]):not([src*="/editor/menupop.gif"]), img[src*="/images/mention.png"] {
         width: 0;
         height: 32px;
@@ -3883,17 +3878,21 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-    if (useOriginalIcons == 0) {
-        img[src*='/image/twitter_logo_blue.png'],
-        img[src*="/varios/instagram_logo.png"],
-        img[src*="/image/vocaroo_logo2.png"],
-        img[src*="/image/facebook_logo_blue.png"] {
+    img[src*='/image/twitter_logo_blue.png'],
+    img[src*="/varios/instagram_logo.png"],
+    img[src*="/image/vocaroo_logo2.png"],
+    img[src*="/image/tiktok_logo.png"],
+    img[src*="/image/facebook_logo_blue.png"] {
+        if (useOriginalIcons == 0) {
             width: 0;
             height: 32px;
             padding-right: 32px;
             background-size: 24px;
             background-position: center;
             background-repeat: no-repeat;
+        } else {
+            padding-top: 6px;
+            padding-left: 6px;
         }
     }
     /* iconos mensajes privados */
