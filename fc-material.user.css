@@ -4561,7 +4561,7 @@
 		    --tx01: #d1d1d1; /* no modificar */
 		    --tx02: #7d7d7d; /* no modificar */
 		}
-		#app > div > div {
+		#app > div > div, #app > div > article {
 			background: var(--bg01) !important;
 		}
 		/* Tweet y titulo preview */
