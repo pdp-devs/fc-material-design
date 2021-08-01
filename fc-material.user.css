@@ -2,7 +2,7 @@
 @name         Forocoches Material Design
 @namespace    pdp-devs
 @description  Estilo material design de @badjojo.
-@version      0.0.22
+@version      0.0.24
 @author       PDP Devs
 @homepageURL  https://github.com/pdp-devs/fc-material-design
 @updateURL    https://raw.githubusercontent.com/pdp-devs/fc-material-design/master/fc-material.user.css
@@ -4432,6 +4432,21 @@
         height: 32px;
         outline: 16px solid var(--bg01);
     }
+
+    /* Pantalla de carga de Tiktok */
+    if (theme == dark) {
+        /* parametros tema oscuro */
+        :root {
+            /* colores */
+            // --tiktokLoadbg01: #232323;
+            // --bg02: #7b7b7b;
+        }
+        
+        /* Skeleton de Carga de TikTok */
+        .tiktok-embed section::before {
+            background-image: linear-gradient(90deg ,hsla(0,0%,98.8%,0), #7b7b7b 50%,hsla(0,0%,98.8%,0)),linear-gradient(var(--bg04) 100%,transparent 0) !important;
+        }
+    }
 }
 
 @-moz-document regexp("(http[s]?:\\/\\/)*www.forocoches.com/foro/") {
@@ -4590,6 +4605,8 @@
 		}	
 	}
 }
+
+
 @-moz-document regexp("(http[s]?:\/\/)*www.facebook.com/.*/plugins/post.php?.*") {
 	if (theme == dark) {
 		/* parametros tema oscuro */
@@ -4620,4 +4637,80 @@
 			color: var(--tx01) !important;
 		}
 	}
+}
+
+
+@-moz-document regexp("(http[s]?:\\/\\/)*www.tiktok.com/embed/v2/.*?.*") {
+	if (theme == dark) {
+		/* parametros tema oscuro */
+		:root {
+			/* colores */
+			--bg01: #232323;
+			--bg02: #7b7b7b;
+			--bg03: #1C1C1C;
+			--tx01: #d1d1d1;
+		}
+		
+		
+		/* Marco iframe */
+		._embed_video_wrapper {
+			border-width: 1px;
+			border-color: var(--bg02) !important;
+		}
+		
+		/* Background */
+		._embed_video_card-wrapper-new {
+			background-color: var(--bg03) !important;
+		}
+		
+		/* Background en hover  */
+		._embed_video_card-info.new > a:hover {
+			background-color: var(--bg01) !important;
+		}
+		
+		/* Separador cuerpo */
+		._embed_video_left-wrapper {
+			border-top-width: 1px;
+			border-top-style: solid;
+			border-color: var(--bg02) !important;
+		}
+		
+		/* Gradiente botón Ver Ahora*/
+		._embed_video_banner-title::after {
+			background: linear-gradient(to left, var(--bg03), rgba(255,255,255,0) 73px, rgba(255,255,255,0));
+		}
+		
+		/* Texto */
+		._embed_video_banner-title,
+		._embed_video_card-user,
+		._embed_video_card-text,
+		._embed_video_card-tag,
+		._embed_video_card-music {
+			color: var(--tx01) !important
+		}
+		
+		/* Iconos */
+		._embed_video_banner-comment,
+		.icon-music {
+			filter: invert(100%);
+		}
+		
+	} else {
+		:root {
+			/* colores */
+			--bg01: #232323;
+			--bg02: #7b7b7b;
+			--bg03: #fafafa;
+			--tx01: #d1d1d1;
+		}
+		
+	}
+	
+		
+	/* Fondo de body para igualar el color del post */
+	html, .main-body {
+		background-color: var(--bg03) !important;
+	}
+				
+	
 }
