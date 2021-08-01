@@ -2,7 +2,7 @@
 @name         Forocoches Material Design
 @namespace    pdp-devs
 @description  Estilo material design de @badjojo.
-@version      0.0.24
+@version      0.0.25
 @author       PDP Devs
 @homepageURL  https://github.com/pdp-devs/fc-material-design
 @updateURL    https://raw.githubusercontent.com/pdp-devs/fc-material-design/master/fc-material.user.css
@@ -16,6 +16,7 @@
 @var checkbox showMessageNumber "Mostrar siempre número de mensaje" 0
 @var checkbox useOriginalIcons "Usar iconos de multimedia originales" 1
 @var checkbox useOriginalAvatars "Usar avatares originales" 0
+@var checkbox useOriginalScrollbar "Usar barra de scroll original" 0
 ==/UserStyle== */
 
 @-moz-document regexp("(http[s]?:\\/\\/)*www.forocoches.*") {
@@ -62,6 +63,9 @@
             --rgb2: rgba(0, 0, 0, .2);
             --rgb2i: rgba(0, 0, 0, .2); /* No modificar */
             --rgb1: rgba(0, 0, 0, .12);
+			--barbg: var(--bg01);
+			--bartx: var(--rs01);
+			--bartxh: var(--rs2h);
 
             /* Sombras */
             --bsh2: 0px 3px 1px -2px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 5px 0px rgba(0, 0, 0, 0.06);
@@ -128,6 +132,9 @@
             --rgb2: rgba(255, 255, 255, .2);
             --rgb2i: rgba(0, 0, 0, .2); /* no modificar */
             --rgb1: rgba(255, 255, 255, .12);
+			--barbg: var(--bg01);
+			--bartx: var(--bg04);
+			--bartxh: var(--rs2h);
 
             /* sombras */
             --dsh2: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.15));
@@ -147,7 +154,7 @@
 
             /* compatibilidad */
             --invert: invert(100%);
-        }
+		}
 
         /* botones foro */
         img[src*="/reply.gif"],
@@ -298,6 +305,32 @@
         /* fin parametros tema oscuro */
 
     }
+	
+	if useOriginalScrollbar == 0 {
+		::-webkit-scrollbar {
+		  width: 10px;
+		}
+
+		/* Track */
+		::-webkit-scrollbar-track {
+		  background: var(--barbg);
+		   border-radius: 2px; 
+
+		}
+
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+		  background: var(--bartx);
+		  border-radius: 2px; 
+		}
+
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+		  background: #555;
+		}
+	}
+	
+	
     /* FUENTES */
     @font-face {
         font-family: Roboto;
